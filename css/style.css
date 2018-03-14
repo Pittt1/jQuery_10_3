@@ -1,0 +1,38 @@
+h1 {
+	text-align: center;
+}
+
+.gallery {
+	margin: 0 auto;
+	text-align: center;
+	width: 400px;
+	height: auto;
+	border: 5px solid black;
+	box-shadow: 4px 3px grey;
+	overflow: hidden;
+	display: block;
+}
+
+.gallery img {
+	width: 400px;
+	height: 300px;
+}
+
+.gallery:after {
+  content:'';
+  display: block;
+  clear: both;
+}
+
+.gallery ul {
+	width: 2000px;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.gallery ul li {
+	float: left;
+}
+
+
